@@ -1,0 +1,166 @@
+/**
+ * @DuNcAnWhItNeY
+ * 
+ */
+import java.util.Scanner;
+import java.util.Random;
+import java.util.Timer;
+
+
+public class Programmingclass
+{
+    public static void main()
+    {
+        
+        Scanner in = new Scanner(System.in);
+        Random rand = new Random();
+        System.out.println("                                                                            ");
+        System.out.println("         =====                                              =====           ");
+        System.out.println("          (%)                                                (%)            ");
+        System.out.println("                                                                            ");
+        System.out.println("                                                                            ");
+        System.out.println("                                     /                                      ");
+        System.out.println("                                    /                                       ");
+        System.out.println("                                   /____                                    ");
+        System.out.println("                                                                            ");
+        System.out.println("                    |                                   |                   ");
+        System.out.println("                    |___________________________________|                   ");
+        System.out.println("                                                                            ");
+        System.out.println("    HELLO I AM MR. BLAKE WELCOME TO PROGRAMMING CLASS WHAT IS YOUR NAME     ");
+        System.out.println("                                                                            ");
+        String name = in.nextLine();
+        System.out.println(" Hey " + name + " you can sit wherever you want");
+        System.out.println(" You can either sit in the back by Will, Jay, Max and Cullen or in the front by Ethan and Alex");
+        System.out.println(" Press 1 to sit in the back or anything else for the front");
+        int answer1 = in.nextInt();
+        System.out.print('\u000C');
+        
+        if(answer1 == 1) 
+        {
+            System.out.println(" You have chosen to sit in the back with Will Jay Max and cullen ");
+            System.out.println(" Your Teacher, Mr. Blake begins teaching and talks ");
+            System.out.println(" He begins to teach the class about the daunting print line ");
+            System.out.println(" He says that there is a quiz tomorrow on print statements ");
+            System.out.println(" Press 1 to study for it or anything else to wing it ");
+            int answer5 = in.nextInt();
+            if (answer5 == 1)
+            {
+                System.out.println(" You study super hard ");
+                System.out.println("You ace the test the next day great Job");
+            }
+            else
+            {
+                System.out.println("you didnt study so you wing it");
+                int random7 = rand.nextInt(2);
+                if (random7 == 1)
+                {
+                    System.out.println(" you failed it, say goodbye to your classmates youre dropping out!");
+                }
+                else
+                {
+                    System.out.println(" You passed it you are one lucky duck congratulations you did great on ur first week of programming ");
+                }
+            }
+            
+        }
+        else 
+        {
+            System.out.println(" You have chose to sit in the front with ethan and alex. ");
+            System.out.println(" During class ethan pokes you and shows you the chromie key he has stolen from Mr. Blake ");
+            System.out.println("                                            ");
+            System.out.println("                      | |                   ");
+            System.out.println("                      | |                   ");
+            System.out.println("                      | |                   ");
+            System.out.println("                      | |                   ");
+            System.out.println("                  |========|                ");
+            System.out.println("                  |========|                ");
+            System.out.println("                                            ");
+            System.out.println(" He asks if you want it press 1 to take it or anything else if you dont want it ");
+            int answer2 = in.nextInt();
+            if (answer2 == 1)
+            {
+                System.out.println(" you take the chromie key but Mr blake walks by and you dont know if he saw you");
+                int random = rand.nextInt(2);
+                if (random == 1)
+                {
+                    System.out.println(" You have been spotted by Mr. Blakes eagle vision you have been given detention ");
+                    System.out.println(" during Detention Mr. Blake makes you write 10 print lines saying you learned your lesson ");
+                    System.out.println(" Mr. Blake leaves the room to go get some food, You have a chance to escape ");
+                    System.out.println(" press 1 to attempt to escape or anything else to stay in detention ");
+                    int answer3 = in.nextInt();
+                    System.out.print('\u000C');
+                    if (answer3 == 1)
+                    {
+                        System.out.println(" You slip out of the Class Room ");
+                        int random2 = rand.nextInt(2);
+                        
+                       
+                        if (random2 == 1 )
+                        {
+                            System.out.println(" Mr. Blake hears the squeeking of your shoes and looks at you");
+                            System.out.println(" You run but Mr. Blake is faster, He is gaining on you. ");
+                            int random3 = rand.nextInt(2);
+                            if (random3 == 1)
+                            {
+                                System.out.println(" You trip and fall Mr. Blake drags you to the office for a talk with ");
+                                System.out.println(" Mr. Wargo ");
+                            }
+                            else
+                            {
+                                System.out.println(" You round the corner and run down the stairs and into the Art wing Bathroom, you lost Mr. Blake.");
+                                System.out.println(" In the Bathroom you witness a hoodlum using Satans USB stick. He asks if you want a rip ");
+                                System.out.println("             __________ ");
+                                System.out.println("            /_________/|");                                               
+                                System.out.println("            |  [ | ]  ||");    
+                                System.out.println("            | [  |  ] ||");
+                                System.out.println("            |  [ | ]  ||");
+                                System.out.println("            |         ||");
+                                System.out.println("            |         ||");
+                                System.out.println("            |         ||");
+                                System.out.println("            |         ||");
+                                System.out.println("            |         ||");
+                                System.out.println("            |         ||");
+                                System.out.println("            |         ||");
+                                System.out.println("            |         ||");
+                                System.out.println("            |         ||");
+                                System.out.println("            |         ||");
+                                System.out.println("            |         ||");
+                                System.out.println("            -----------| ");
+                                
+                                System.out.println(" press 1 to take a rip or anything else to stay innocent ");
+                                int answer4 = in.nextInt();
+                                if (answer4 == 1 )
+                                {
+                                    System.out.print('\u000C');
+                                    System.out.println(" You take a rip from Satans USB Stick, you die shortly after due to a nicotine overdose ");
+                                }
+                                    
+                            }
+
+                        }
+                        
+                    }
+                    else
+                    {
+                        System.out.println("You stay in detention like a good boy  ");
+                        System.out.println(" After hours of starvation MR. Blake realeases you ");
+                        System.out.println(" Congratulations youve Survived the first day of programming ");
+                    }
+                }
+                else
+                {
+                    System.out.println(" You have succesfuly acquired the legendary chromie key without being spotted ");
+                    System.out.println(" Congratualtions you take it home to cherish and keep it forever");
+                }
+            }
+            else
+            {
+                System.out.println(" you turn down the Chromie key because you dont want to get in trouble ");
+                System.out.println(" You have beat Programming class great job ");
+            }
+        }
+           
+        }
+   }
+
+
